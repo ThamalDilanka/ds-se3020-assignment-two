@@ -21,6 +21,7 @@ fire-alert-api | The REST API of the system
 fire-alert-rmi | The RMI server and desktop client application
 fire-alert-web | The web client application
 fire-alert-sensor | Fire sensor simulator application
+database | Sample collection files of the system
 Fire Alert System Documentation.pdf | Complete Documentation of the system
 Install.txt | Deployment process (You can find the same details in the following section)
 
