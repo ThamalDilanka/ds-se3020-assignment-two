@@ -1,0 +1,79 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Email
+  body(style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 100px;")
+    div(style="width: 100%;")
+      div(style="\
+      max-width: 1000px;\
+      margin-left: auto;\
+      margin-right: auto;\
+      ")
+        div(style="\
+        width: 100%;\
+        height: 200px;\
+        background-color: rgb(233, 233, 233);\
+        text-align: center;\
+        ")
+          img(src="https://i.ibb.co/xD3y5VZ/fire-alert-sign.png" alt="warning" style="width: 100px; margin: 10px auto 0px auto;")
+          p(style="\
+          font-size: 40px;\
+          color: rgb(87, 87, 87);\
+          margin: 0;\
+          ")
+            | FIRE ALERT
+          p(style="font-size: 10px; color: gray; margin: 0;")
+            | A harmful air condition has been detected
+        br
+        h2 Dear Admin,
+        p
+          | A harmful air condition has been detected in #{floor} floor,
+          | Room #{room}. It's urgent to pay your attention. There may be a fire emergency inside.
+        br
+        hr
+        div(style="width: 100%; text-align: center; margin-top: 50px;")
+          h1(style="color: rgb(0, 102, 255);")
+            | #{floor} Floor | Room #{room}
+          h3(style="\
+          color: rgba(112, 112, 112, 0.692);\
+          margin-top: 0;\
+          ")
+            | On #{date} At #{time}
+          table(style="width: 60%; margin: auto;")
+            tr
+              td
+                h3 Smoke Level
+              td
+                h3 CO2 Level
+            tr
+              td
+                span(style="\
+                font-size: 50px;\
+                color: rgb(187, 19, 19);\
+                ") #{smokeLevel}
+              td
+                span(style="\
+                font-size: 50px;\
+                color: rgb(187, 19, 19);\
+                ") #{co2Level}
+        div(style="\
+        width: 100%;\
+        text-align: center;\
+        margin-top: 20px;\
+        margin-bottom: 50px;\
+        ")
+          a(href=`${url}` target="_blank" style="\
+          text-decoration: none;\
+          width: 50%;\
+          height: 100px;\
+          background-color: rgb(22, 104, 199);\
+          padding: 10px 50px;\
+          color: white;\
+          border-radius: 20px;\
+          margin: auto;\
+          ") More Details
+        hr
+        div(style="width: 100%; text-align: center; margin-top: 30px;")
+          img(src="https://i.ibb.co/N7L2Gn3/fire-alert-logo-name.png" alt="aq-visualizer-logo" style="width: 200px;")

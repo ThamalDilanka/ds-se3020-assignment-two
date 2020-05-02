@@ -1,0 +1,39 @@
+--------------------------------------------------------------------------------------------
+				RMI Server and Desktop Client
+--------------------------------------------------------------------------------------------
+
+
+* PC should have installed java 11 or above version.
+* Both RMI Server and Desktop Client run in localhost.
+* Below external libraries should be added to the classpath of the project. They have been provided in the dependencies folder inside the fire-alert-rmi 
+
+	commons-logging-1.2.jar
+	commons-logging-1.2-javadoc.jar
+	httpclient-4.3.1.jar
+	httpcore-4.3.2.jar
+	json-20190722.jar
+
+* Run RMIServer using Run as Java Application option.
+* You must have the internet connection when the RMIServer is    
+  running.
+* Run the desktop client.
+
+--------------------------------------------------------------------------------------------
+					REST API
+--------------------------------------------------------------------------------------------
+
+* PC should have installed 10.0 or above version of Node.js runtime environment
+* Set the environment variables in the config.env file.
+	You should provide followings:
+		# DATABASE - connection string of the MongoDB database
+		# DATABASE_PASSWORD - password of the cluster admin
+		# JWT_SECRET - define a secret for the JSON Web Token
+		# JWT_EXPIRES_IN - define the valid preriod of a token
+		# EMAIL_SENDING_ACCESS_TOKEN - define a email sending token
+		# EMAIL_FROM - the email that sending the alerts
+		# SENDGRID_API_KEY - SENDGRID Api key 
+		# MESSAGEBIRD_ACCESSKEY - Messagebird access key
+* Enter the following command in the terminal to run the REST API, it will runs the application on port 8000 unless you specify the port in the config.env file
+
+	npm start
+
