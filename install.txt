@@ -19,7 +19,7 @@ Your PC should have installed 10.0 or above version of Node.js runtime environme
 
 3. Run 'npm start' script to run the application. It will start on port 8000, unless you changed the port in the fire-alert-api/config.env file
 
-Note: Since most of the above environment variables should not be exposed to the public, those are removed from the repository. However, all other components of the system are using the hosted version of API and this API has been deployed on the Heroku platform. This link could be used instead of running the API on your machine. You may refer the API documentation for more details.
+Note: Since most of the above environment variables should not be exposed to the public, those are removed from the repository. However, all other components of the system are using the hosted version of API and this API has been deployed on the Heroku platform. This link http://fire-alert-solution.herokuapp.com/ could be used instead of running the API on your machine. You may refer the API documentation for more details.
 
 ------------------------------------------------------------------------------
 		RMI Server adn Desktop Client Application
@@ -39,7 +39,7 @@ running.
 1. Clone this repository and open the CMD inside the fire-alert-web directory.
 2. Run 'npm start' script to run the application. It will start on port 3000.
 
-Note: This application has been hosted in GitHub Pages. You may use this link to access the live version of the web client application.
+Note: This application has been hosted in GitHub Pages. You may use this link https://thamaldilanka.github.io/fire-alert-web/ to access the live version of the web client application.
 
 ------------------------------------------------------------------------------
 			Fire Sensor Simulator Application
