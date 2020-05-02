@@ -1,0 +1,45 @@
+[{
+  "_id": "ad399a80-a97b-4654-9172-6f7f0cbc30f3",
+  "lastReading": {
+    "smokeLevel": 8,
+    "co2Level": 10,
+    "time": "Wed Apr 29 2020 08:34:58 GMT+0000 (Coordinated Universal Time)"
+  },
+  "activated": true,
+  "floor": 5,
+  "room": "A508",
+  "__v": 0
+},{
+  "_id": "d4eb52c1-139e-4ac6-a2ee-e5552f0f96c4",
+  "lastReading": {
+    "smokeLevel": 4,
+    "co2Level": 3,
+    "time": "Wed Apr 29 2020 08:34:59 GMT+0000 (Coordinated Universal Time)"
+  },
+  "activated": true,
+  "floor": 1,
+  "room": "A101",
+  "__v": 0
+},{
+  "_id": "1ghb6ec3-7b69-4ea1-8c1a-8bb78e1e59de",
+  "lastReading": {
+    "smokeLevel": 4,
+    "co2Level": 2,
+    "time": "Sun Apr 26 2020 09:13:53 GMT+0000 (Coordinated Universal Time)"
+  },
+  "activated": true,
+  "floor": 4,
+  "room": "B250",
+  "__v": 0
+},{
+  "_id": "e1720832-efab-4f12-a2ac-d08827505c7d",
+  "lastReading": {
+    "smokeLevel": 5,
+    "co2Level": 5,
+    "time": "Tue Apr 28 2020 17:46:57 GMT+0000 (Coordinated Universal Time)"
+  },
+  "activated": true,
+  "floor": 5,
+  "room": "B502",
+  "__v": 0
+}]

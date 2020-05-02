@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "5e9db379ebd24500178d972b"
+  },
+  "name": "Thamal Dilanka",
+  "email": "thamaldilanke@gmail.com",
+  "password": "$2a$12$XhSQgCPlEPv3joxPDSuzR.dSuYvYddyfXp4hyp9eiavG7nULF9/TW",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e9dbc9fe1750b0017d58db9"
+  },
+  "name": "Kavindu Tharaka",
+  "email": "ktm@gmail.com",
+  "password": "$2a$12$.5S/yKZ/AfFpoz3zl6aYjuNMiy5lWIwMGxLkqomOrbWUXaRiMLOTm",
+  "__v": 0
+}]
