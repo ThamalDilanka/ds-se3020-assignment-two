@@ -12,7 +12,7 @@ IT18006476 | Gunarathna G.K.N.L.
 ### Presentation Video - Watch on YouTube
 [![FireAlert](https://i.ibb.co/KNyT8Lq/youtube.png)](https://www.youtube.com/watch?v=X1D8vReTA1Y&feature=youtu.be)
 
-### Derectory Structure
+### Directory Structure
 There are four separate applications in this repository. Here are the details of the directories you could find above.
 
 Directory or File | Descritption
